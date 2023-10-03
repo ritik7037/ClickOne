@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640687512610",
+    "project_id": "click-one-c59ac",
+    "storage_bucket": "click-one-c59ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640687512610:android:348f1a90b7de862de6fe7b",
+        "android_client_info": {
+          "package_name": "com.example.clickone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8itSNKzIEp62mrO8jILal8b-C5hoKOJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Click One</string>
+    <string name="calculator_">Calculator</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="currency_">Currency</string>
+    <string name="tictactoe_">TicTacToe</string>
+    <string name="weather_">Weather</string>
+    <string name="c_">C</string>
+    <string name="percent_">%</string>
+    <string name="b_">B</string>
+    <string name="div_">/</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="x">X</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_3">3</string>
+    <string name="sub_">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_00">00</string>
+    <string name="dot_">.</string>
+    <string name="add_">+</string>
+    <string name="_0">0</string>
+    <string name="equal_">=</string>
+    <string name="mul_">*</string>
+    <string name="calcu_">calculatorimage</string>
+    <string name="weathe_r">wearherimage</string>
+    <string name="todo_list">todoimage</string>
+    <string name="currenc_y">currencyimage</string>
+    <string name="tictacto_e">tictactoeimage</string>
+    <string name="addlistbutton">Add</string>
+    <string name="enter_a_task">Enter a task</string>
+    <string name="tododeletebutton">TODO</string>
+    <string name="convert_">Convert</string>
+    <string name="enter_amount_">Enter amount</string>
+    <string name="result_format">%1$.2f %2$s = %3$.2f %4$s</string>
+    <string name="invalid_amount">Invalid amount entered.</string>
+    <string name="location_name">Location Name</string>
+    <string name="refresh">Refresh</string>
+    <string name="weather_condition">Weather condition</string>
+    <string name="temperature_25_c">Temperature: 25°C</string>
+</resources>

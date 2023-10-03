@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculator">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="402dp"
+        android:layout_height="62dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="402dp"
+        android:layout_height="55dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="#9A000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck">
+
+    </TextView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout">
+
+    </View>
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id ="@+id/button0"
+            android:onClick="onClear"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/c_"
+            android:textSize="30sp" />
+
+        <Button
+            android:id ="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:onClick="onOperator"
+            android:layout_marginStart="2dp"
+            android:text="@string/percent_"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button2"
+            android:onClick="onBack"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/b_"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button3"
+            android:onClick="onOperator"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/div_"
+            android:textSize="30sp"
+            tools:ignore="VisualLintBounds">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button4"
+            android:onClick="onDigite"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/_7"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_8"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_9"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button7"
+            android:onClick="onOperator"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/mul_"
+            android:textSize="30sp"
+            tools:ignore="VisualLintBounds">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/_4"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_5"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_6"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button11"
+            android:onClick="onOperator"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/sub_"
+            android:textSize="30sp"
+            tools:ignore="VisualLintBounds">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button12"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/_1"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button13"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_2"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button14"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_3"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button15"
+            android:onClick="onOperator"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/add_"
+            android:textSize="30sp"
+            tools:ignore="VisualLintBounds">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button16"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/_00"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button17"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/_0"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button18"
+            android:onClick="onDot"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/dot_"
+            android:textSize="30sp">
+
+        </Button>
+
+        <Button
+            android:id ="@+id/button19"
+            android:onClick="onEqual"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/equal_"
+            android:textSize="30sp"
+            tools:ignore="VisualLintBounds">
+
+        </Button>
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
